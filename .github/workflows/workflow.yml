@@ -15,5 +15,5 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: action/checkout@v3
 
-      - name: Install Dependencies
-      - run: npm install
+      - name: install dependencies
+        run: npm install
